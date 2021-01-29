@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="200">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "Keywords" content ="HTML,CSS,FLASK">
+    <meta charset="UTF-8">
+    <title>result</title>
+</head>
+<body>
+<table border ="1">
+
+    {% for key ,value in result.items() %}
+    <tr>
+        <th>{{ key }} </th>
+        <td>{{ value }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+</body>
+</html>
